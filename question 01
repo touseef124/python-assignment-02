@@ -1,0 +1,22 @@
+print("MARKSHEET")
+sub1 = int(input("Enter marks of English "));
+sub2 = int(input("Enter marks of Compter "));
+sub3 = int(input("Enter marks of Science "));
+sub4 = int(input("Enter marks of Physics "));
+sub5 = int(input("Enter marks of NLP "));
+total_marks = sub1 + sub3 + sub3 + sub4 + sub5
+percentage = (total_marks/500) * 100
+print("Percentage: ", percentage, "%")
+
+if(percentage >=80 ):
+    print("Grade: A+1")
+elif(percentage >=70):
+    print("Grade: A")
+elif(percentage >=60):
+    print("Grade: B")
+elif(percentage >=50):
+    print("Grade: C")
+elif(percentage >=40):
+    print("Grade: D")
+elif(percentage <=39):
+    print("Grade: Failed")
