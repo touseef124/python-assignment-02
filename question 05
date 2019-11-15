@@ -1,0 +1,6 @@
+print("prints out all the elements of the list that are less than 5.")
+a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+print("LIST ITEMS: ",a)
+for value in a:
+    if value < 5:
+        print("LIST ITEMS LESS THAN 5 ", value)
