@@ -1,0 +1,4 @@
+print("LARGEST NUM IN A LIST")
+list = [1, 100, 3, 4, 6, 2, 22, 54, 11]
+print("LIST ITEMS: ",list)
+print("LARGEST NUM IN THE LIST ",max(list))
